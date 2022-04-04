@@ -51,6 +51,14 @@ p {
     margin: 8px;
 }
 
+button {
+    padding: 8px;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    margin-left: 6px;
+}
+
 hero {
     display: flex;
     flex-flow: column nowrap;
