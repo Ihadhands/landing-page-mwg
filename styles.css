@@ -1,0 +1,23 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-content: space-around;
+    background-color: rgb(45, 128, 45);
+    color: white;
+    font-size: 24px;
+}
+
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
