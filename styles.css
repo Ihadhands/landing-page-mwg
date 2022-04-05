@@ -30,7 +30,7 @@ a {
 
 .container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
     gap: 16px;
@@ -71,7 +71,31 @@ hero {
     width: 550x;
 }
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
 .values {
-    height: 235px;
-    width: 235px;
+    height: 200px;
+    width: 200px;
+    border: 4px;
+    border-color: rgb(45, 128, 45);
+}
+
+.company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin: 20px 40px 20px 40px;
+}
+
+.cards {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 8px;
+    max-width: 200px;
 }
